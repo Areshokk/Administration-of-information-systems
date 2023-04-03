@@ -1,0 +1,5 @@
+- name: Change prefix of prod hostname
+  lineinfile:
+    path: /etc/hostname
+    regexp: '^areshokserver'
+    line: yurii-meda-lab2
